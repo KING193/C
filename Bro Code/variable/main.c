@@ -11,7 +11,9 @@ int main() {
     char grade = 'C';
     char name[] = "leon";
 
-    printf("You are age %i", age);
-    
-    printf("\n");
+    printf("Hello %s\n", name);
+    printf("You are age %d\n", age);
+    printf("Your averge grade is %c\n", grade);
+    printf("Your gpa is %f\n", gpa);
+
 }
