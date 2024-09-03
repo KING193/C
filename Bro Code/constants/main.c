@@ -12,7 +12,7 @@ int main()
 
     const float la = 3.14159;
 
-    //!la = 76.89875; error
+    //! la = 76.89875; error
 
     printf("%.5f \n", la);
 }
