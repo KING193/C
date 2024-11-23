@@ -15,7 +15,7 @@ int main()
 
     x = x / 5;
     x /= 5;
-
+// / == % no difference
     x = x % 2;
     x %= 2;
 
