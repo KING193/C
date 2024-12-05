@@ -3,9 +3,10 @@
 
 int main()
 {
-    bool sunny = true;
+    bool sunny = false;
+    int num = 5;
 
-    if (!sunny)
+    if (!sunny && num != 6)
     {
         printf("It's sunny outside! \n");
     }

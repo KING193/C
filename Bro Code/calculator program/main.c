@@ -1,5 +1,5 @@
 #include <stdio.h>
-//DOING 
+
 int main()
 {
     char operator;
