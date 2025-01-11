@@ -1,11 +1,15 @@
 #include <stdio.h>
 
-void test()
+void birthdat(char x[], int y)
 {
-    printf("hi \n");
+    printf("Happy birthday dear %s! \n", x);
+    printf("You are %d years old! \n", y);
 }
 
 int main()
 {
-    test();
+    char name[] = "Simo";
+    int age = 18;
+
+    birthdat(name , age);
 }
